@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppBackgroundService\WebAppBackgroundService.csproj" />
+    <ProjectReference Include="..\WebApplicationEugeneM.BLL\WebApplicationEugeneM.BLL.csproj" />
   </ItemGroup>
 
 </Project>

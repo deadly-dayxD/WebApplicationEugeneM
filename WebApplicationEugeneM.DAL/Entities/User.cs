@@ -1,7 +1,5 @@
-﻿using WebApplicationEugeneM.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-
-namespace WebApplicationEugeneM.Models
+﻿
+namespace WebApplicationEugeneM.DAL.Entities
 {
     public class User
     {
